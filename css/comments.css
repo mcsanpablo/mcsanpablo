@@ -1,0 +1,63 @@
+.comments {
+    margin: 2.5rem auto 0;
+    max-width: 60.75rem;
+    padding: 0 1.25rem;
+}
+.comment-wrap {
+    margin-bottom: 1.25rem;
+    display: table;
+    width: 100%;
+    min-height: 5.3125rem;
+}
+.author {
+    padding-top: 3rem;
+    display: table-cell;
+    width: 5rem;
+}
+.author .avatar {
+    height: 5rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-size: contain;
+}
+.comment-block {
+	top: 0;
+	left: 0;
+    padding: 1rem;
+    background-color: #fff;
+    display: table-cell;
+    vertical-align: top;
+    border-radius: 0.1875rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+}
+.comment-block textarea {
+    width: 100%;
+    max-width: 100%;
+}
+.comment-text {
+    margin-bottom: 1.25rem;
+}
+.bottom-comment {
+    color: #acb4c2;
+    font-size: 0.875rem;
+}
+.comment-date {
+    float: right;
+}
+.comment-actions {
+    float: left;
+}
+.comment-actions li {
+    display: inline;
+}
+.comment-actions li.complain {
+    padding-right: 0.625rem;
+    border-right: 1px solid #e1e5eb;
+}
+.comment-actions li.reply {
+    padding-left: 0.625rem;
+}
+.aline {
+    background-color:#E6E3E3;
+    height:1px;
+}
